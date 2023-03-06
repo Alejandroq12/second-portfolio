@@ -1,0 +1,91 @@
+#navbar {
+    box-shadow: 0px 0px 10px 1px var(--gray3);
+}
+
+#navbar div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar div a {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+}
+
+#navbar div a:hover {
+    color: var(--white);
+    transition: color .3s ease, color .3s ease;
+}
+
+#navbar div img {
+    margin-right: .5rem;
+}
+
+#navbar button {
+    background-color: transparent;
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: .2rem .7rem;
+    margin: .7rem;
+    border: none;
+    cursor: pointer;
+}
+
+#navbar.open button {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 2rem;
+}
+
+#navbar ul {
+    background: linear-gradient(var(--primary), var(--primary-dark));
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0;
+    margin: 0;
+    max-height: 0;
+    transition: max-height .3s ease;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+#navbar.open ul {
+    max-height: 150px;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar ul a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--white);
+    transition: color .3s ease, background-color .3s ease;
+}
+
+#navbar ul a:hover,
+#navbar ul a:focus {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+#toggle:hover {
+    background-color: var(--black);
+}
+
+#active {
+    background-color: var(--primary-dark);
+}
