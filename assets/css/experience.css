@@ -1,0 +1,20 @@
+#experience img {
+  background: white;
+  width: 150px;
+  height: 150px;
+  padding: 2rem;
+  border: 5px solid var(--primary);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: border-radius .3s ease, box-shadow .3s ease;
+}
+
+#experience img:hover {
+  border-radius: 0;
+  box-shadow: 0 0 10px 1px var(--gray2);
+}
+
+#experience h4 {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
