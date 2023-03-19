@@ -48,6 +48,10 @@ form button:hover {
   margin: 1rem;
 }
 
+#social-media a {
+  text-decoration: none;
+}
+
 #linkedin:hover {
   background-color: #0077b5;
 }
