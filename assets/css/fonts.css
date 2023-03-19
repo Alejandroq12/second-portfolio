@@ -1,31 +1,31 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--gray3);
-    text-align: center;
-    font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--gray3);
+  text-align: center;
+  font-size: 14px;
 }
 
 header,
 footer,
 section.even {
-    color: var(--white);
+  color: var(--white);
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h2,
 h3,
 h4 {
-    letter-spacing: 0.3rem;
+  letter-spacing: 0.3rem;
 }
 
 h1,
 h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 h4 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
